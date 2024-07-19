@@ -1,0 +1,167 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: auto;
+}
+
+#container {
+    width: 70%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+#add {
+    width: 80%;
+    min-height: 10%;
+    background-color: #191919;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+#add_input {
+    /* position: absolute;
+    top: 20px;
+    left: 20px; */
+    background-color: #191919;
+    width: 70%;
+    height: 30px;
+    border: 3px solid #616161;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    caret-color: #fff;
+    margin: 15px 0 15px 15px;
+}
+
+ #add_input:focus {
+    border: 3.5px solid #757575;
+    outline: none;
+ }
+
+ #add_icon {
+    width: 40px;
+    height: 40px;
+    margin: 14px 0 0 15px;
+    cursor: pointer;
+    /* position: absolute;
+    top: 18px;
+    right: 25px; */
+ }
+
+ #add_icon:active {
+    opacity: 0.8;
+ }
+
+ #list {
+    width: 80%;
+    min-height: 30%;
+    background-color: #191919;
+    margin: 20px 10px 20px 10px;
+    padding: 5px 10px 15px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Yataydan dikeye değiştirin */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+ }
+
+ #head {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-bottom: 3px solid #616161;
+    margin-bottom: 20px;
+ }
+
+ #header {
+    display: inline-block;
+    min-width: 10%;
+    height: 25px;
+    color: #fff;
+    text-align: center;
+    
+ }
+
+ #delete_all {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 75px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #9e0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+ }
+
+ #delete_all:active {
+    background-color: #ad0202;
+    width: 76px;
+    height: 26px;
+ }
+
+ #list_ul {
+    margin: auto;
+    padding: 10px 0 10px 0;
+    list-style-type: none;
+    width: 40rem;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap; /* Yatay sıralama */
+    /* justify-content: center;
+    flex-direction: column; */
+ } 
+
+ .list_li {
+    padding: 5px 10px 5px 10px;
+    min-height: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 3px solid #616161;
+    border-radius: 10px;
+    position: relative;
+    flex: 1 0 auto;
+ }
+
+ .div_close {
+    width: 20px;
+    height: 20px;
+    float: right;
+    border-left: 2px solid #616161;
+    padding-left: 5px;
+    cursor: pointer;
+ }
+
+ .close {
+    width: 20px;
+    height: 20px;
+ }
